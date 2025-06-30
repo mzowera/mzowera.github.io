@@ -27,7 +27,7 @@ I'm a full-stack developer with a strong foundation in Python, C#, Flask, GraphQ
 ### 🏥 Mid Full Stack Developer — Elgada BPO Solutions Inc.  
 *May 2023 – Present*  
 - Built GraphQL + Flask-based healthcare credentialing applications  
-- Improved automation and refactored complex modules using KISS and DRY  
+- Improved automation and refactored complex modules 
 - Active in code reviews and suggesting scalable architectural improvements
 
 ---
