@@ -37,6 +37,7 @@ I'm a full-stack developer with a strong foundation in Python, C#, Flask, GraphQ
 - Contributed to the development of Knowledge Base Portals for the Information Quality Management Office (IQMO)  
 - Focused on building accessible and well-structured information systems supporting document integrity and knowledge sharing  
 - Collaborated in a multidisciplinary environment using Angular, .NET, and Git-based workflows
+- Developed SSO for multiple applications that work independently and communicate thru REST API
 
 ---
 
