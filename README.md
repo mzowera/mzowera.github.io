@@ -29,6 +29,14 @@ I'm a full-stack developer with a strong foundation in Python, C#, Flask, GraphQ
 - Built GraphQL + Flask-based healthcare credentialing applications  
 - Improved automation and refactored complex modules 
 - Active in code reviews and suggesting scalable architectural improvements
+  
+---
+
+### 🏛️ Computer Programmer III (Part-Time) — Polytechnic University of the Philippines  
+*March 24, 2025 – Present*  
+- Contributed to the development of Knowledge Base Portals for the Information Quality Management Office (IQMO)  
+- Focused on building accessible and well-structured information systems supporting document integrity and knowledge sharing  
+- Collaborated in a multidisciplinary environment using Angular, .NET, and Git-based workflows
 
 ---
 
