@@ -86,48 +86,50 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 
 ## 🧠 Technical Skills
 
-**Frontend**:
-- HTML, CSS, JavaScript, TypeScript
-- Angular (standalone components, signal-based state management, reactive forms)
-- React, Next.js (SSR, routing, component-driven architecture)
-- Material UI, Bootstrap
-- jQuery, AJAX
-- BEM CSS naming conventions for scalable and maintainable styling
-- Web PDF development (viewers, exports)  
-**Backend**: Flask (Python), Laravel (PHP), ASP.NET (C#)
-- Python (Flask, Django)
-- C# (ASP.NET Web API)
-- PHP (Laravel)
-- REST and GraphQL API design
-- Type safety enforcement (Python typing, C# strong typing)
-- SSO (Single Sign-On) development and integration
-- Background jobs and Cron task setup
-**Mobile**:
-- Android (Java)  
-**Desktop**:
-- WPF, WinForms  
-**Database**:
-- SQLite, MySQL, MS SQL
-- SQLAlchemy (declarative & imperative mapping)
-- Alembic (Python migrations)
-- Firebase (Realtime DB)
-- Redis (caching, message queues)
-**AI/Machine Learning**:
-- scikit-learn (K-Means, Apriori, classification, regression, etc.)
-- pandas, NumPy, Matplotlib
-- Developed AI/ML demos for academic presentation (PUP)
-**DevOps & Automation**:
-- Docker (multi-stage builds, containerization, environment setup)
-- Git (branching strategy, clean commits, version control discipline)
-- Poetry (Python dependency management)
-- Anaconda (environment isolation for ML workflows)
+### Frontend
+- **HTML**, **CSS**, **JavaScript**, **TypeScript**
+- **Angular** (standalone components, signal-based state management, reactive forms)
+- **React**, **Next.js** (SSR, routing, component-driven architecture)
+- **Material UI**, **Bootstrap**, jQuery, AJAX
+- **BEM CSS** naming conventions for scalable and maintainable styling
+- Web PDF development (viewers, dynamic export)
+
+### Backend
+- **Python** (Flask, Django), **C#** (ASP.NET Web API), **PHP** (Laravel)
+- RESTful and GraphQL API design
+- Type safety enforcement (Python type hints, C# strong typing)
+- Single Sign-On (**SSO**) development and integration
+- Background job processing and **cron task** setup
+
+### Mobile Development
+- **Android** (Java)
+
+### Desktop Development
+- **WPF**, **WinForms**
+
+### Databases & ORMs
+- **SQLite**, **MySQL**, **MS SQL**, **Firebase Realtime Database**
+- **SQLAlchemy** (declarative & imperative mapping)
+- **Alembic** (Python migrations)
+- **Redis** (caching, message queues)
+
+### AI / Machine Learning
+- **scikit-learn** (K-Means, Apriori, classification, regression, etc.)
+- **pandas**, **NumPy**, **Matplotlib**
+- Developed AI/ML demos for academic presentations at **PUP**
+
+### DevOps & Automation
+- **Docker** (multi-stage builds, containerization, environment setup)
+- **Git** (branching strategy, clean commits, version control discipline)
+- **Poetry**, **Anaconda** (Python dependency and environment management)
 - IVR scripting (telephony systems)
-- Excel macro automation (VBScript)
+- Excel macro automation (**VBScript**)
 - Adaptable to proprietary scripting environments and internal tooling
-**Testing**:
-- Unit testing in C# (ASP.NET Web Apps)
-- Familiar with TDD principles and testable code structure
-- Strong in code reviews, clean commit history, and coding standards
+
+### Testing & Code Quality
+- Unit testing in **C# (ASP.NET Web Apps)**
+- Familiar with **TDD principles** and testable code structures
+- Strong in code reviews, clean commit history, and enforcing coding standards
 
 ---
 
