@@ -86,50 +86,52 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 
 ## 🧠 Technical Skills
 
-### Frontend
-- **HTML**, **CSS**, **JavaScript**, **TypeScript**
-- **Angular** (standalone components, signal-based state management, reactive forms)
-- **React**, **Next.js** (SSR, routing, component-driven architecture)
-- **Material UI**, **Bootstrap**, jQuery, AJAX
-- **BEM CSS** naming conventions for scalable and maintainable styling
-- Web PDF development (viewers, dynamic export)
+## 🛠️ Technical Skills
 
-### Backend
-- **Python** (Flask, Django), **C#** (ASP.NET Web API), **PHP** (Laravel)
-- RESTful and GraphQL API design
-- Type safety enforcement (Python type hints, C# strong typing)
-- Single Sign-On (**SSO**) development and integration
-- Background job processing and **cron task** setup
+### 🌐 Frontend
+- 💻 **HTML**, **CSS**, **JavaScript**, **TypeScript**
+- ⚙️ **Angular** (standalone components, signal-based state management, reactive forms)
+- ⚛️ **React**, **Next.js** (SSR, routing, component-driven architecture)
+- 🎨 **Material UI**, **Bootstrap**, jQuery, AJAX
+- 🧩 **BEM CSS** naming conventions for scalable and maintainable styling
+- 🖨️ Web PDF development (viewers, dynamic export)
 
-### Mobile Development
-- **Android** (Java)
+### 🧩 Backend
+- 🐍 **Python** (Flask, Django), 🧱 **C#** (ASP.NET Web API), 🐘 **PHP** (Laravel)
+- 🔌 RESTful and GraphQL API design
+- 🛡️ Type safety enforcement (Python type hints, C# strong typing)
+- 🔐 **SSO** (Single Sign-On) development and integration
+- ⏱️ Background job processing and **cron task** setup
 
-### Desktop Development
-- **WPF**, **WinForms**
+### 📱 Mobile Development
+- 🤖 **Android** (Java)
 
-### Databases & ORMs
-- **SQLite**, **MySQL**, **MS SQL**, **Firebase Realtime Database**
-- **SQLAlchemy** (declarative & imperative mapping)
-- **Alembic** (Python migrations)
-- **Redis** (caching, message queues)
+### 🖥️ Desktop Development
+- 🧰 **WPF**, **WinForms**
 
-### AI / Machine Learning
-- **scikit-learn** (K-Means, Apriori, classification, regression, etc.)
-- **pandas**, **NumPy**, **Matplotlib**
-- Developed AI/ML demos for academic presentations at **PUP**
+### 🗄️ Databases & ORMs
+- 🪶 **SQLite**, 🐬 **MySQL**, 🧱 **MS SQL**, 🔥 **Firebase Realtime Database**
+- 🧬 **SQLAlchemy** (declarative & imperative mapping)
+- 📦 **Alembic** (Python migrations)
+- 🚀 **Redis** (caching, message queues)
 
-### DevOps & Automation
-- **Docker** (multi-stage builds, containerization, environment setup)
-- **Git** (branching strategy, clean commits, version control discipline)
-- **Poetry**, **Anaconda** (Python dependency and environment management)
-- IVR scripting (telephony systems)
-- Excel macro automation (**VBScript**)
-- Adaptable to proprietary scripting environments and internal tooling
+### 🤖 AI / Machine Learning
+- 🧠 **scikit-learn** (K-Means, Apriori, classification, regression, etc.)
+- 📊 **pandas**, 🧮 **NumPy**, 📈 **Matplotlib**
+- 🎓 Built AI/ML demonstration tools for academic use at **PUP**
 
-### Testing & Code Quality
-- Unit testing in **C# (ASP.NET Web Apps)**
-- Familiar with **TDD principles** and testable code structures
-- Strong in code reviews, clean commit history, and enforcing coding standards
+### ⚙️ DevOps & Automation
+- 🐳 **Docker** (multi-stage builds, containerization, environment setup)
+- 🔧 **Git** (branching strategy, clean commits, version control discipline)
+- 📦 **Poetry**, 🐍 **Anaconda** (Python dependency and environment management)
+- ☎️ IVR scripting (telephony systems)
+- 📊 Excel macro automation (**VBScript**)
+- 🧠 Adaptable to proprietary scripting environments and internal tooling
+
+### 🧪 Testing & Code Quality
+- 🧱 Unit testing in **C# (ASP.NET Web Apps)**
+- 🧪 Familiar with **TDD principles** and testable code structures
+- ✅ Str
 
 ---
 
