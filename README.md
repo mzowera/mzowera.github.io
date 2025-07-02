@@ -86,7 +86,7 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 
 ## 🧠 Technical Skills
 
-- **Frontend**:
+**Frontend**:
 - HTML, CSS, JavaScript, TypeScript
 - Angular (standalone components, signal-based state management, reactive forms)
 - React, Next.js (SSR, routing, component-driven architecture)
@@ -94,7 +94,7 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 - jQuery, AJAX
 - BEM CSS naming conventions for scalable and maintainable styling
 - Web PDF development (viewers, exports)  
-- **Backend**: Flask (Python), Laravel (PHP), ASP.NET (C#)
+**Backend**: Flask (Python), Laravel (PHP), ASP.NET (C#)
 - Python (Flask, Django)
 - C# (ASP.NET Web API)
 - PHP (Laravel)
@@ -102,21 +102,21 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 - Type safety enforcement (Python typing, C# strong typing)
 - SSO (Single Sign-On) development and integration
 - Background jobs and Cron task setup
-- **Mobile**:
+**Mobile**:
 - Android (Java)  
-- **Desktop**:
+**Desktop**:
 - WPF, WinForms  
-- **Database**:
+**Database**:
 - SQLite, MySQL, MS SQL
 - SQLAlchemy (declarative & imperative mapping)
 - Alembic (Python migrations)
 - Firebase (Realtime DB)
 - Redis (caching, message queues)
-- **AI/Machine Learning**:
+**AI/Machine Learning**:
 - scikit-learn (K-Means, Apriori, classification, regression, etc.)
 - pandas, NumPy, Matplotlib
 - Developed AI/ML demos for academic presentation (PUP)
-- **DevOps & Automation**:
+**DevOps & Automation**:
 - Docker (multi-stage builds, containerization, environment setup)
 - Git (branching strategy, clean commits, version control discipline)
 - Poetry (Python dependency management)
@@ -124,7 +124,7 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 - IVR scripting (telephony systems)
 - Excel macro automation (VBScript)
 - Adaptable to proprietary scripting environments and internal tooling
-- **Testing**:
+**Testing**:
 - Unit testing in C# (ASP.NET Web Apps)
 - Familiar with TDD principles and testable code structure
 - Strong in code reviews, clean commit history, and coding standards
