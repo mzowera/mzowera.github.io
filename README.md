@@ -11,7 +11,7 @@
 
 🧩 I’ve also worked with companies using in-house scripting tools and proprietary languages, which has sharpened my ability to quickly adapt and learn. I’m           confident navigating any tech stack, and I always aim to leave systems better than I found them.
 
-📈 My approach combines engineering discipline with speed — whether it's finding the best solution, reviewing code with precision, or optimizing processes.
+📈 My approach combines engineering discipline with speed whether it's finding the best solution, reviewing code with precision, or optimizing processes.
 
 I'm not just writing code, I'm designing systems that work well today and are easy to maintain tomorrow.
 
