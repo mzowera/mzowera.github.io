@@ -15,7 +15,7 @@
 
 📈 My approach combines engineering discipline with speed — whether it's finding the best solution, reviewing code with precision, or optimizing processes.
 
-I'm not just writing code — I'm designing systems that work well today and are easy to maintain tomorrow.
+I'm not just writing code, I'm designing systems that work well today and are easy to maintain tomorrow.
 
 ---
 
