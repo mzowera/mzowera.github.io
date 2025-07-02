@@ -12,17 +12,6 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 
 ---
 
-## 🧠 Technical Skills
-
-- **Frontend**: HTML, CSS, Bootstrap, W3.CSS, JavaScript, React, jQuery, AJAX  
-- **Backend**: Flask (Python), Laravel (PHP), ASP.NET (C#)  
-- **Mobile**: Android (Java)  
-- **Desktop**: WPF, WinForms  
-- **Database**: SQLite, MySQL, MS SQL, SQLAlchemy, Alembic, Firebase  
-- **Tools & Others**: Docker, Git, Poetry, Anaconda, IVR Scripting, Excel Macro (VBScript)
-
----
-
 ## 💼 Work History & Projects
 
 ### 🏥 Mid Full Stack Developer — Elgada BPO Solutions Inc.  
@@ -92,6 +81,17 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 - 🏅 Most Productive Intern – TalentScout Inc.  
 - 🎤 Resource Speaker – C Programming Workshop  
 - 👨‍🏫 Java Tutor – L.E.A.P. Event (2019)
+
+---
+
+## 🧠 Technical Skills
+
+- **Frontend**: HTML, CSS, Bootstrap, W3.CSS, JavaScript, React, jQuery, AJAX  
+- **Backend**: Flask (Python), Laravel (PHP), ASP.NET (C#)  
+- **Mobile**: Android (Java)  
+- **Desktop**: WPF, WinForms  
+- **Database**: SQLite, MySQL, MS SQL, SQLAlchemy, Alembic, Firebase  
+- **Tools & Others**: Docker, Git, Poetry, Anaconda, IVR Scripting, Excel Macro (VBScript)
 
 ---
 
