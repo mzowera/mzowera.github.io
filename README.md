@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Marion Owera
 
-📍 Santa Cruz, Laguna | 📧 mzowera@gmail.com  
+ | 📧 mzowera@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/mzowera)
 
 ---
@@ -113,5 +113,7 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 
 ## 📫 Contact Me
 
-- **Email**: mzowera@gmail.com  
-- **LinkedIn**: [linkedin.com/in/mzowera](https://linkedin.com/in/mzowera)  
+- **Email**: mzowera@gmail.com
+- **Phone Number**: +639672410294 
+- **LinkedIn**: [linkedin.com/in/mzowera](https://linkedin.com/in/mzowera)
+- **Address**: Santa Cruz, Laguna 
