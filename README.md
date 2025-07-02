@@ -1,5 +1,4 @@
 # 👋 Hi, I'm Marion Owera
----
 
 👨‍💻 I'm a full-stack developer with strong backend expertise and a passion for building clean, maintainable, and scalable systems. I’m rigorous with type safety,      coding conventions, and code quality, applying strong standards even in languages like Python.
 
