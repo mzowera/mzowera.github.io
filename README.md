@@ -7,11 +7,11 @@
 
 ## 👨‍💻 About Me
 
-👨‍💻 I'm a full-stack developer with strong backend expertise and a passion for building clean, maintainable, and scalable systems. I’m rigorous with type safety, coding conventions, and code quality, applying strong standards even in languages like Python.
+👨‍💻 I'm a full-stack developer with strong backend expertise and a passion for building clean, maintainable, and scalable systems. I’m rigorous with type safety,      coding conventions, and code quality, applying strong standards even in languages like Python.
 
-🧠 I’ve built healthcare systems, academic machine learning demos (Apriori, K-Means, and more), and custom automation tools. I thrive in environments where quality, structure, and problem-solving are valued.
+🧠 I’ve built healthcare systems, academic machine learning demos (Apriori, K-Means, and more), and custom automation tools. I thrive in environments where           quality, structure, and problem-solving are valued.
 
-🧩 I’ve also worked with companies using in-house scripting tools and proprietary languages, which has sharpened my ability to quickly adapt and learn. I’m confident navigating any tech stack, and I always aim to leave systems better than I found them.
+🧩 I’ve also worked with companies using in-house scripting tools and proprietary languages, which has sharpened my ability to quickly adapt and learn. I’m           confident navigating any tech stack, and I always aim to leave systems better than I found them.
 
 📈 My approach combines engineering discipline with speed — whether it's finding the best solution, reviewing code with precision, or optimizing processes.
 
