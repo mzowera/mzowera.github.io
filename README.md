@@ -147,6 +147,5 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 ## 📫 Contact Me
 
 - **Email**: mzowera@gmail.com
-- **Phone Number**: +639672410294 
 - **LinkedIn**: [linkedin.com/in/mzowera](https://linkedin.com/in/mzowera)
 - **Address**: Santa Cruz, Laguna 
