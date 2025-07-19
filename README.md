@@ -31,6 +31,14 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 
 ---
 
+### 🎓 Mentorship Project – Laguna University  
+*Dec 2023 – Feb 2024*  
+- Mentored students developing a POS Android App with Predictive Analytics (ARIMA)  
+- Taught Git, Jira, clean file structure, and best coding practices  
+- ✅ [Play Store Link](https://play.google.com/store/apps/details?id=com.projectfkklp.saristorepos)
+
+---
+
 ### 🎧 Associate Software Integration Engineer — Nice, Inc.  
 *Sep 2021 – May 2023*  
 - Developed IVR/ACD systems using in-house scripting tools  
@@ -48,13 +56,6 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 
 ---
 
-### 🎓 Mentorship Project – Laguna University  
-*Dec 2023 – Feb 2024*  
-- Mentored students developing a POS Android App with Predictive Analytics (ARIMA)  
-- Taught Git, Jira, clean file structure, and best coding practices  
-- ✅ [Play Store Link](https://play.google.com/store/apps/details?id=com.projectfkklp.saristorepos)
-
----
 
 ### 💡 Side Projects
 
@@ -87,19 +88,20 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 ## 🧠 Technical Skills
 
 ### 🌐 Frontend
-- HTML, CSS, JavaScript, TypeScript  
-- Angular (standalone components, signal-based state management, reactive forms)  
-- React, Next.js (SSR, routing, component-driven architecture)  
-- Material UI, Bootstrap, jQuery, AJAX  
-- BEM CSS naming conventions for scalable and maintainable styling  
-- Web PDF development (viewers, dynamic export)
+- HTML, CSS, SCSS, JavaScript, TypeScript  
+- Angular, React, Next.js 
+- Material UI, Bootstrap, jQuery, AJAX
+- Responsive design and cross-browser compatibility
+- BEM CSS naming convention for scalable and maintainable styling  
+- Web-based PDF generation and display
 
 ### 🧩 Backend
-- Python (Flask, Django), C# (ASP.NET Web API), PHP (Laravel)  
-- RESTful and GraphQL API design  
-- Type safety enforcement (Python type hints, C# strong typing)  
-- SSO (Single Sign-On) development and integration  
+- Python (Flask, Django), C# (ASP.NET Web API), PHP (Laravel) 
+- RESTful and GraphQL API design    
 - Background job processing and cron task setup
+- Authentication systems including SSO (Single Sign-On) and role-based access
+- Environment-based configuration using environment variables for multi-environment support (dev, staging, production)
+- Interactive Voice Response (IVR) & Automatic Call Distribution (ACD) scripting (telephony systems) 
 
 ### 📱 Mobile Development
 - Android (Java)
@@ -109,38 +111,45 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 
 ### 🗄️ Databases & ORMs
 - SQLite, MySQL, MS SQL, Firebase Realtime Database  
-- SQLAlchemy (declarative & imperative mapping)  
+- SQLAlchemy, Entity Framework  
 - Alembic (Python migrations)  
 - Redis (caching, message queues)
 
 ### 🤖 AI / Machine Learning
-- scikit-learn (K-Means, Apriori, classification, regression, etc.)  
-- pandas, NumPy, Matplotlib  
-- Developed AI/ML demos for academic presentation (PUP)
+- Implemented algorithms such as K-Means, Apriori, classification, regression, ANN, and CNN  
+- Used pandas, NumPy, and Matplotlib for data processing and visualization  
+- Developed AI/ML demos and prototypes for academic presentations (PUP)
 
-### ⚙️ DevOps & Automation
-- Docker (multi-stage builds, containerization, environment setup)  
-- Git (branching strategy, clean commits, version control discipline)  
-- Poetry, Anaconda (Python dependency and environment management)  
-- IVR scripting (telephony systems)  
-- Excel macro automation (VBScript)  
-- Adaptable to proprietary scripting environments and internal tooling
+### ⚙️ Development Tools
+- Docker  
+- Git  
+- Poetry, Anaconda 
+- Excel macro automation (VBScript)
 
-### 🧪 Testing & Code Quality
-- Unit testing in C# (ASP.NET Web Apps)  
-- Familiar with TDD principles and testable code structures  
-- Strong in code reviews, clean commit history, and enforcing coding standards
+### 🧪 Testing
+- Unit Testing
+- Code Reviewing
 
 ---
 
-## 🧰 Soft Skills & Best Practices
+## 🧹 Code Quality & Best Practices
+- Writes clean, self-documented code that minimizes the need for comments
+- Avoids excessive nesting and keeps logic flat and readable
+- Uses meaningful and descriptive naming for variables, functions, and classes
+- Follows project-specific coding standards and team conventions
+- Prioritizes readability over cleverness by avoiding overly complex expressions
+- Uses constants/enums instead of hard-coded literals
+- Implements type safety (Python type hints, C# strong typing)
+- Configures environment-specific variables for scalable multi-environment deployments (dev, staging, prod)
 
-- Strong communication & mentorship skills  
-- Highly productive and self-directed  
-- Follows coding principles: **KISS**, **DRY**, clear documentation  
-- Code structure focused on **readability**, **maintainability**, and **scalability**  
-- Familiar with MVVM, MVC patterns and clean file structuring  
-- Values inclusive collaboration and continuous improvement
+---
+
+## 🧰 Other Skills
+
+- Good Oral and Written Communication  
+- Research and solution prototyping (R&D) 
+- Collaborative and readable coding style
+- Leadership and mentorship in team and academic settings
 
 ---
 
