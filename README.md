@@ -122,13 +122,21 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 
 ### ⚙️ Development Tools
 - Docker  
-- Git  
 - Poetry, Anaconda 
 - Excel macro automation (VBScript)
 
 ### 🧪 Testing
 - Unit Testing
 - Code Reviewing
+
+## 🤝 Collaboration & Workflow
+- Git, GitHub, GitLab, SourceTree, Azure
+- Branching strategy, clean commit history, rebasing & conflict resolution
+- Mentorship experience with juniors and student developers
+- Good Oral and Written Communication  
+- Research and solution prototyping (R&D) 
+- Collaborative, readable coding style aligned with team standards
+- Familiar with Agile tools and workflows (e.g., Jira)
 
 ---
 
@@ -141,15 +149,6 @@ I'm not just writing code, I'm designing systems that work well today and are ea
 - Uses constants/enums instead of hard-coded literals
 - Implements type safety (Python type hints, C# strong typing)
 - Configures environment-specific variables for scalable multi-environment deployments (dev, staging, prod)
-
----
-
-## 🧰 Other Skills
-
-- Good Oral and Written Communication  
-- Research and solution prototyping (R&D) 
-- Collaborative and readable coding style
-- Leadership and mentorship in team and academic settings
 
 ---
 
