@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio • Your Name</title>
+  <meta name="description" content="A clean single‑file portfolio demo you can copy and customize." />
+  <style>
+    :root{
+      --bg: #0b0f14;
+      --card: #0f151d;
+      --muted: #92a2b8;
+      --text: #e6eef7;
+      --brand: #61dafb;
+      --brand-2:#a78bfa;
+      --ring: #2a98f0;
+      --shadow: 0 1px 2px rgba(0,0,0,.12), 0 8px 24px rgba(0,0,0,.24);
+      --radius: 14px;
+    }
+
+    [data-theme="light"]{
+      --bg:#f7f9fc; --card:#ffffff; --muted:#5b6b7f; --text:#0b1220; --brand:#2563eb; --brand-2:#7c3aed; --ring:#60a5fa;
+    }
+
+    html,body{height:100%;}
+    body{
+      margin:0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color:var(--text); background:radial-gradient(1200px 800px at 80% -10%, rgba(97,218,251,.1), transparent 60%), radial-gradient(1000px 600px at -10% 30%, rgba(167,139,250,.12), transparent 60%), var(--bg);
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+    }
+
+    /* Layout */
+    .container{max-width:1100px; margin:0 auto; padding:0 20px;}
+    header{position:sticky; top:0; backdrop-filter:saturate(180%) blur(8px); background:color-mix(in oklab, var(--bg) 80%, transparent); border-bottom:1px solid color-mix(in oklab,var(--text) 10%, transparent); z-index:20}
+    .nav{display:flex; align-items:center; justify-content:space-between; padding:12px 0;}
+    .nav a{color:var(--muted); text-decoration:none; margin:0 10px; font-weight:600}
+    .nav a:hover{color:var(--text)}
+    .brand{display:flex; gap:10px; align-items:center; font-weight:800; letter-spacing:.4px}
+    .badge{padding:2px 10px; border-radius:999px; border:1px solid color-mix(in oklab,var(--text) 12%, transparent); color:var(--muted); font-size:.8rem}
+    .btn{display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:12px; border:1px solid color-mix(in oklab,var(--text) 14%, transparent); background:linear-gradient(180deg,color-mix(in oklab,var(--card) 70%, transparent), color-mix(in oklab,var(--card) 40%, transparent)); color:var(--text); text-decoration:none; box-shadow:var(--shadow)}
+    .btn:hover{transform:translateY(-1px)}
+
+    /* Hero */
+    .hero{display:grid; grid-template-columns: 1.2fr 1fr; gap:40px; align-items:center; padding:64px 0 32px}
+    .hero h1{font-size:clamp(2rem, 4vw + 1rem, 3.2rem); line-height:1.15; margin:.2rem 0 .6rem}
+    .hero p{color:var(--muted); margin:0 0 1rem}
+    .hero .actions{display:flex; gap:12px; flex-wrap:wrap; margin-top:10px}
+    .card{background:linear-gradient(180deg, color-mix(in oklab,var(--card) 85%, transparent), color-mix(in oklab,var(--card) 65%, transparent)); border:1px solid color-mix(in oklab,var(--text) 12%, transparent); border-radius:var(--radius); box-shadow:var(--shadow)}
+    .avatar{aspect-ratio:1/1; border-radius:16px; border:1px solid color-mix(in oklab,var(--text) 10%, transparent); background:linear-gradient(135deg, rgba(97,218,251,.18), rgba(167,139,250,.18)), url('https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=900&auto=format&fit=crop') center/cover;}
+
+    /* Sections */
+    section{padding:48px 0}
+    .section-head{display:flex; align-items:flex-end; justify-content:space-between; margin-bottom:18px}
+    .section-head h2{margin:0; font-size:1.6rem}
+    .sub{color:var(--muted)}
+
+    /* Grid cards */
+    .grid{display:grid; gap:18px}
+    .grid.cols-3{grid-template-columns: repeat(3,minmax(0,1fr));}
+    .grid.cols-2{grid-template-columns: repeat(2,minmax(0,1fr));}
+    @media (max-width: 900px){
+      .hero{grid-template-columns:1fr;}
+      .grid.cols-3{grid-template-columns: repeat(2,minmax(0,1fr));}
+    }
+    @media (max-width: 640px){
+      .grid.cols-3, .grid.cols-2{grid-template-columns: 1fr;}
+    }
+
+    .proj{position:relative; overflow:hidden; padding:18px; display:flex; flex-direction:column; gap:10px}
+    .proj h3{margin:2px 0 0; font-size:1.05rem}
+    .proj p{margin:0; color:var(--muted)}
+    .tag{display:inline-flex; align-items:center; gap:6px; font-size:.82rem; color:var(--muted); border:1px solid color-mix(in oklab,var(--text) 12%, transparent); padding:4px 10px; border-radius:999px}
+    .proj .thumb{height:140px; border-radius:10px; background:linear-gradient(135deg, rgba(97,218,251,.12), rgba(167,139,250,.12)); border:1px solid color-mix(in oklab,var(--text) 10%, transparent)}
+    .proj .links{margin-top:auto; display:flex; gap:10px}
+
+    /* Skills */
+    .skills{display:flex; flex-wrap:wrap; gap:10px}
+    .chip{padding:8px 12px; border-radius:999px; border:1px dashed color-mix(in oklab,var(--text) 16%, transparent); font-weight:600; color:var(--muted); background:linear-gradient(180deg, color-mix(in oklab,var(--card) 85%, transparent), color-mix(in oklab,var(--card) 65%, transparent))}
+
+    /* Timeline */
+    .timeline{position:relative; margin-top:16px}
+    .timeline::before{content:""; position:absolute; left:11px; top:0; bottom:0; width:2px; background:color-mix(in oklab,var(--text) 12%, transparent)}
+    .t-item{position:relative; margin-left:30px; margin-bottom:18px}
+    .t-item::before{content:""; position:absolute; left:-22px; top:6px; width:12px; height:12px; border-radius:999px; background:linear-gradient(135deg,var(--brand),var(--brand-2)); box-shadow:0 0 0 3px color-mix(in oklab,var(--text) 8%, transparent)}
+    .t-title{font-weight:700}
+    .t-meta{color:var(--muted); font-size:.9rem}
+
+    /* Contact */
+    form{display:grid; gap:12px}
+    input, textarea{padding:12px 14px; border-radius:12px; border:1px solid color-mix(in oklab,var(--text) 14%, transparent); background:var(--card); color:var(--text)}
+    input:focus, textarea:focus{outline:2px solid var(--ring); border-color:transparent}
+
+    footer{padding:32px 0 60px; color:var(--muted)}
+
+    .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border-width:0}
+  </style>
+</head>
+<body>
+  <header aria-label="Site header">
+    <div class="container nav">
+      <div class="brand">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false">
+          <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z" stroke="currentColor" stroke-width="1.2"/>
+        </svg>
+        <span>Your Name</span>
+        <span class="badge">Open to work</span>
+      </div>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <button id="theme" class="btn" aria-label="Toggle theme" title="Toggle theme">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <div class="container hero">
+      <div>
+        <p class="badge">Hello, I'm</p>
+        <h1>Front‑End / Full‑Stack Developer crafting delightful web apps</h1>
+        <p>I build fast, accessible products with a focus on clean UX and maintainable code. This is a single‑file HTML portfolio you can copy and customize.</p>
+        <div class="actions">
+          <a class="btn" href="#projects">View Projects →</a>
+          <a class="btn" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="card avatar" role="img" aria-label="Abstract avatar image"></div>
+    </div>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="container">
+      <div class="section-head">
+        <h2>Selected Projects</h2>
+        <p class="sub">A few things I'm proud of.</p>
+      </div>
+      <div class="grid cols-3">
+        <!-- Project Card -->
+        <article class="proj card">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>Knowledge Base Portal</h3>
+          <p>Angular + .NET + SQL. Searchable research repository with filters, pagination, and role‑based access.</p>
+          <div class="skills">
+            <span class="tag">Angular</span>
+            <span class="tag">.NET</span>
+            <span class="tag">SQL Server</span>
+          </div>
+          <div class="links">
+            <a class="btn" href="#">Live</a>
+            <a class="btn" href="#">Code</a>
+          </div>
+        </article>
+
+        <article class="proj card">
+          <div class="thumb"></div>
+          <h3>PDF Form Toolkit</h3>
+          <p>React tools to view & fill PDF forms (pdf‑lib, PDF.js), with overlay editor and export.</p>
+          <div class="skills">
+            <span class="tag">React</span>
+            <span class="tag">pdf-lib</span>
+            <span class="tag">PDF.js</span>
+          </div>
+          <div class="links">
+            <a class="btn" href="#">Live</a>
+            <a class="btn" href="#">Code</a>
+          </div>
+        </article>
+
+        <article class="proj card">
+          <div class="thumb"></div>
+          <h3>Healthcare Admin Suite</h3>
+          <p>Role/permission management, import pipelines, and audit logging with SQLAlchemy Continuum.</p>
+          <div class="skills">
+            <span class="tag">Python</span>
+            <span class="tag">SQLAlchemy</span>
+            <span class="tag">RQ</span>
+          </div>
+          <div class="links">
+            <a class="btn" href="#">Live</a>
+            <a class="btn" href="#">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="container">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p class="sub">Tech I use regularly.</p>
+      </div>
+      <div class="skills">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">TypeScript</span>
+        <span class="chip">React</span>
+        <span class="chip">Angular</span>
+        <span class="chip">.NET</span>
+        <span class="chip">Node</span>
+        <span class="chip">SQL</span>
+        <span class="chip">Docker</span>
+        <span class="chip">Git</span>
+        <span class="chip">Testing</span>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="container">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p class="sub">A quick timeline.</p>
+      </div>
+      <div class="timeline">
+        <div class="t-item card">
+          <div class="t-title">Computer Programmer III • PUP</div>
+          <div class="t-meta">2025 — Present · Manila, PH</div>
+          <p>Building a university knowledge base and admin tooling.</p>
+        </div>
+        <div class="t-item card">
+          <div class="t-title">Mid Full‑Stack Developer • Elgada BPO</div>
+          <div class="t-meta">2023 — 2024 · Remote</div>
+          <p>Led features across Angular/.NET services; improved DX and code quality.</p>
+        </div>
+        <div class="t-item card">
+          <div class="t-title">Associate Developer • NICE</div>
+          <div class="t-meta">2021 — 2023 · Remote</div>
+          <p>Worked on data pipelines and internal tooling, mentored juniors.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="container">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p class="sub">Say hello or ask about a project.</p>
+      </div>
+      <form class="card" onsubmit="event.preventDefault(); alert('Thanks! This demo form doesn\'t send yet.');">
+        <label class="sr-only" for="name">Name</label>
+        <input id="name" name="name" placeholder="Your name" required />
+        <label class="sr-only" for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Your email" required />
+        <label class="sr-only" for="msg">Message</label>
+        <textarea id="msg" name="message" placeholder="What would you like to build?" rows="5" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Your Name — Built with vanilla HTML/CSS/JS. <a href="#" style="color:inherit">View source</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Year + theme toggle + smooth hash scroll
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const themeBtn = document.getElementById('theme');
+    const prefersLight = window.matchMedia('(prefers-color-scheme: light)');
+
+    function setTheme(mode){
+      document.documentElement.setAttribute('data-theme', mode);
+      localStorage.setItem('theme', mode);
+    }
+    const saved = localStorage.getItem('theme');
+    if(saved){ setTheme(saved); }
+    else if(prefersLight.matches){ setTheme('light'); }
+
+    themeBtn.addEventListener('click', ()=>{
+      const now = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+      setTheme(now);
+    });
+
+    // Smooth scroll for in-page links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const id = a.getAttribute('href').slice(1);
+        const el = document.getElementById(id);
+        if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'}); }
+      })
+    })
+  </script>
+</body>
+</html>
