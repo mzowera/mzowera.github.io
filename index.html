@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marion Owera — Portfolio</title>
+  <meta name="description" content="Full‑stack developer portfolio: projects, skills, and contact." />
+  <meta name="color-scheme" content="light dark" />
+  <meta property="og:title" content="Marion Owera — Portfolio" />
+  <meta property="og:description" content="Full‑stack developer portfolio: projects, skills, and contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-image.png" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='0.9em' font-size='90'%3E💻%3C/text%3E%3C/svg%3E" />
+  <style>
+    :root{
+      --bg: #0b1020;
+      --card: #11172a;
+      --text: #e6eefc;
+      --muted:#9bb0d1;
+      --accent:#60a5fa;
+      --accent-2:#22d3ee;
+      --ring:#93c5fd55;
+      --border:#1f2a44;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f8fafc; --card:#ffffff; --text:#0b1020; --muted:#475569; --accent:#2563eb; --accent-2:#0891b2; --ring:#3b82f655; --border:#e2e8f0;
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji","Segoe UI Emoji"; color:var(--text); background:radial-gradient(1200px 700px at 10% -10%, #1b2847 0%, transparent 60%), radial-gradient(1000px 600px at 110% 10%, #12203b 0%, transparent 50%), var(--bg);}
+    a{color:inherit}
+    .container{max-width:1100px; margin-inline:auto; padding:24px}
+    header{position:sticky; top:0; backdrop-filter: blur(8px); background: color-mix(in oklab, var(--bg), transparent 75%); border-bottom:1px solid var(--border); z-index:10}
+    .nav{display:flex; align-items:center; justify-content:space-between; gap:12px}
+    .brand{display:flex; align-items:center; gap:10px; font-weight:700}
+    .brand .logo{width:34px; height:34px; border-radius:10px; background:linear-gradient(135deg, var(--accent), var(--accent-2)); display:grid; place-items:center; color:white; font-weight:900}
+    .nav a{padding:8px 12px; border-radius:10px; text-decoration:none; color:var(--muted)}
+    .nav a:hover{background:color-mix(in oklab, var(--accent) 18%, transparent); color:var(--text)}
+    .nav-actions{display:flex; align-items:center; gap:8px}
+    .btn{border:1px solid var(--border); background:var(--card); color:var(--text); padding:8px 12px; border-radius:12px; cursor:pointer}
+    .btn:hover{border-color:color-mix(in oklab, var(--accent), var(--border) 40%); box-shadow:0 0 0 3px var(--ring)}
+    .primary{background:linear-gradient(135deg, var(--accent), var(--accent-2)); border:none}
+    .grid{display:grid; gap:20px}
+    .hero{padding-block:40px}
+    .hero h1{font-size:clamp(28px, 4vw, 44px); line-height:1.15; margin:0 0 10px}
+    .hero p.lead{font-size:clamp(16px, 2.2vw, 20px); color:var(--muted); margin:0 0 20px}
+    .tags{display:flex; flex-wrap:wrap; gap:8px; margin:18px 0}
+    .tag{padding:6px 10px; border:1px solid var(--border); border-radius:999px; color:var(--muted); font-size:14px}
+    section{padding-block:32px}
+    .card{background:linear-gradient(180deg, color-mix(in oklab, var(--card), transparent 10%), var(--card)); border:1px solid var(--border); border-radius:16px; padding:18px}
+    .card h3{margin-top:0}
+    .projects{grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))}
+    .project-thumb{aspect-ratio:16/9; border-radius:12px; border:1px solid var(--border); background: #0b1324; display:grid; place-items:center; color:var(--muted); margin-bottom:12px}
+    .kpis{grid-template-columns: repeat(3, 1fr)}
+    .kpi{display:flex; flex-direction:column; gap:4px; padding:12px; border:1px dashed var(--border); border-radius:12px; align-items:center}
+    .kpi .num{font-weight:800; font-size:24px}
+    .list{display:grid; gap:12px}
+    .row{display:flex; gap:12px; align-items:center; justify-content:space-between}
+    .row .left{display:flex; align-items:center; gap:12px}
+    .avatar{width:48px; height:48px; border-radius:12px; background:linear-gradient(135deg, var(--accent), var(--accent-2)); display:grid; place-items:center; color:white; font-weight:800}
+    .footer{border-top:1px solid var(--border); padding-block:30px; color:var(--muted); font-size:14px}
+    .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0}
+    .mobile-toggle{display:none}
+    @media (max-width:720px){
+      .nav .links{display:none}
+      .mobile-toggle{display:inline-flex}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Marion Owera",
+    "jobTitle": "Full‑Stack Developer",
+    "url": "https://example.com",
+    "sameAs": ["https://github.com/your-username", "https://www.linkedin.com/in/your-handle/"]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Go to top">
+        <div class="logo">MO</div>
+        <span>Marion Owera</span>
+      </a>
+      <nav class="links" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn" id="themeBtn" aria-pressed="false" title="Toggle theme">🌓</button>
+        <button class="btn mobile-toggle" id="menuBtn" aria-expanded="false">☰</button>
+        <a class="btn primary" href="#contact">Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="home" class="container">
+    <section class="hero">
+      <div class="grid" style="grid-template-columns: 1.2fr 0.8fr; align-items:center">
+        <div>
+          <h1>Building clean, reliable apps for the web.</h1>
+          <p class="lead">I’m Marion, a full‑stack developer based in the Philippines. I ship pragmatic solutions in Angular, .NET, Python, and SQL.
+          </p>
+          <div class="tags" aria-label="Key skills">
+            <span class="tag">Angular</span>
+            <span class="tag">.NET</span>
+            <span class="tag">Python</span>
+            <span class="tag">SQL Server</span>
+            <span class="tag">Docker</span>
+          </div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn primary" href="#projects">See Projects</a>
+            <a class="btn" href="mailto:hello@example.com">Email Me</a>
+            <a class="btn" href="/resume.pdf">Download Résumé</a>
+          </div>
+        </div>
+        <div>
+          <div class="card">
+            <div class="row">
+              <div class="left">
+                <div class="avatar" aria-hidden="true">M</div>
+                <div>
+                  <strong>Currently</strong>
+                  <div class="muted">Computer Programmer III · PUP</div>
+                </div>
+              </div>
+              <a class="btn" href="https://github.com/your-username">GitHub ↗</a>
+            </div>
+            <div class="grid kpis" style="margin-top:12px">
+              <div class="kpi"><div class="num">7+ yrs</div><div class="muted">Experience</div></div>
+              <div class="kpi"><div class="num">34</div><div class="muted">Projects</div></div>
+              <div class="kpi"><div class="num">12</div><div class="muted">Open‑source</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Featured Projects</h2>
+      <div class="grid projects" style="margin-top:12px">
+        <article class="card">
+          <a class="project-thumb" href="#" aria-label="Open project demo">Live Demo</a>
+          <h3>Knowledge Base Platform</h3>
+          <p>Angular + .NET + SQL Server app for academic content search with filters, categories, and file previews.</p>
+          <div class="tags"><span class="tag">Angular</span><span class="tag">.NET</span><span class="tag">SQL</span></div>
+          <div class="row"><a class="btn" href="#">Demo</a><a class="btn" href="#">Source</a></div>
+        </article>
+        <article class="card">
+          <a class="project-thumb" href="#">Screenshots</a>
+          <h3>Healthcare Workflow Suite</h3>
+          <p>Modular system with role‑based access, audit trails, and document versioning (SQLAlchemy Continuum style).
+          </p>
+          <div class="tags"><span class="tag">C#</span><span class="tag">EF Core</span><span class="tag">Docker</span></div>
+          <div class="row"><a class="btn" href="#">Case Study</a><a class="btn" href="#">Source</a></div>
+        </article>
+        <article class="card">
+          <a class="project-thumb" href="#">Play</a>
+          <h3>Git Learning Series</h3>
+          <p>Bite‑sized TikTok/shorts content and companion site teaching Git branches, merge, and rebase.</p>
+          <div class="tags"><span class="tag">Content</span><span class="tag">Git</span><span class="tag">Vite</span></div>
+          <div class="row"><a class="btn" href="#">Watch</a><a class="btn" href="#">Source</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <div class="grid projects" style="margin-top:12px">
+        <div class="card">
+          <h3>Frontend</h3>
+          <ul class="list">
+            <li>Angular, React, TypeScript</li>
+            <li>Accessibility (a11y), responsive UI</li>
+            <li>Material UI, Tailwind, SCSS</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Backend</h3>
+          <ul class="list">
+            <li>.NET (C#), ASP.NET Core MVC/Web API</li>
+            <li>Python (Flask/FastAPI), GraphQL</li>
+            <li>Auth, caching, background jobs (RQ)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Data & DevOps</h3>
+          <ul class="list">
+            <li>SQL Server, MySQL, Postgres</li>
+            <li>Docker, CI/CD, Nginx</li>
+            <li>Analytics, instrumentation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="exp-heading">
+      <h2 id="exp-heading">Experience</h2>
+      <div class="grid projects" style="margin-top:12px">
+        <div class="card">
+          <h3>Computer Programmer III · PUP</h3>
+          <p class="muted">2024 — Present</p>
+          <ul class="list">
+            <li>Built a research knowledge base with advanced filtering.</li>
+            <li>Led integration across multiple Angular apps (identity, KM, risk).</li>
+            <li>Improved developer experience with tooling and docs.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Mid Full‑Stack Developer · Elgada BPO</h3>
+          <p class="muted">2022 — 2024</p>
+          <ul class="list">
+            <li>Implemented role management with grouped permissions.</li>
+            <li>Delivered data pipelines and reporting dashboards.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Associate Developer · NICE</h3>
+          <p class="muted">2020 — 2022</p>
+          <ul class="list">
+            <li>Migrated legacy code, introduced type safety and tests.</li>
+            <li>Optimized APIs and reduced response times by ~40%.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <div class="grid" style="grid-template-columns: 1fr 1fr; margin-top:12px">
+        <form class="card" onsubmit="sendMail(event)">
+          <h3>Send a message</h3>
+          <label class="sr-only" for="name">Name</label>
+          <input id="name" name="name" placeholder="Your name" required style="width:100%; padding:10px 12px; margin:8px 0; border-radius:12px; border:1px solid var(--border); background:var(--card); color:var(--text)" />
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@email.com" required style="width:100%; padding:10px 12px; margin:8px 0; border-radius:12px; border:1px solid var(--border); background:var(--card); color:var(--text)" />
+          <label class="sr-only" for="msg">Message</label>
+          <textarea id="msg" name="message" rows="5" placeholder="How can I help?" required style="width:100%; padding:10px 12px; margin:8px 0; border-radius:12px; border:1px solid var(--border); background:var(--card); color:var(--text)"></textarea>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+        <div class="card">
+          <h3>Elsewhere</h3>
+          <ul class="list">
+            <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+            <li><a href="https://github.com/your-username">github.com/your-username</a></li>
+            <li><a href="https://www.linkedin.com/in/your-handle/">linkedin.com/in/your-handle</a></li>
+          </ul>
+          <h3 style="margin-top:18px">Location</h3>
+          <p>Laguna, Philippines (UTC+8)</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> Marion Owera • Built with plain HTML/CSS/JS</div>
+  </footer>
+
+  <script>
+    // Theme toggle with localStorage
+    const themeBtn = document.getElementById('themeBtn');
+    const userPref = localStorage.getItem('theme');
+    if(userPref){
+      document.documentElement.style.colorScheme = userPref;
+    }
+    themeBtn?.addEventListener('click', () => {
+      const current = getComputedStyle(document.documentElement).colorScheme;
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.style.colorScheme = next;
+      localStorage.setItem('theme', next);
+      themeBtn.setAttribute('aria-pressed', String(next==='dark'));
+    });
+
+    // Mobile menu (simple jump links toggler)
+    const menuBtn = document.getElementById('menuBtn');
+    const links = document.querySelector('.links');
+    menuBtn?.addEventListener('click', () => {
+      const open = links.style.display === 'block';
+      links.style.display = open ? 'none' : 'block';
+      menuBtn.setAttribute('aria-expanded', String(!open));
+    });
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Mailto sender
+    function sendMail(e){
+      e.preventDefault();
+      const f = e.target;
+      const name = encodeURIComponent(f.name.value.trim());
+      const email = encodeURIComponent(f.email.value.trim());
+      const msg = encodeURIComponent(f.message.value.trim());
+      const subject = `Portfolio inquiry from ${name}`;
+      const body = `Name: ${name}%0AEmail: ${email}%0A%0A${msg}`;
+      window.location.href = `mailto:hello@example.com?subject=${subject}&body=${body}`;
+      f.reset();
+    }
+  </script>
+</body>
+</html>
